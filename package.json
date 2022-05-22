@@ -1,0 +1,33 @@
+{
+  "name": "store_node",
+  "version": "1.0.0",
+  "description": "The backend of a store in node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramirezdev26/Store_Node.js.git"
+  },
+  "keywords": [
+    "store",
+    "backend",
+    "node.js"
+  ],
+  "author": "Santiago Ramirez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramirezdev26/Store_Node.js/issues"
+  },
+  "homepage": "https://github.com/ramirezdev26/Store_Node.js#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  }
+}
